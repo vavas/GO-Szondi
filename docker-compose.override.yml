@@ -1,0 +1,14 @@
+version: '2'
+networks:
+  microservices:
+    external: true
+services:
+  go-szondi:
+    networks:
+    - microservices
+    expose:
+    - 80
+    ports:
+    - 5777:80
+    environment:
+      ENGINE_RPC_DSN: msgo-gf-engine:8080

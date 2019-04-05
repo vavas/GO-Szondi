@@ -1,0 +1,13 @@
+version: "2"
+services:
+  go-szondi:
+    image: golang:1.8
+    volumes:
+    - .:/go/src/github.com/vavas/GO-Szondi
+    working_dir: /go/src/github.com/vavas/GO-Szondi
+    command: ./dist/go-szondi
+    expose:
+    - 80
+    environment:
+      PROJECT_NAME: go-szondi
+      CORS_ALLOWED_ORIGINS: "*"

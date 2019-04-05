@@ -1,0 +1,55 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "B5HfcRjCrks1xQcuoU/nLf5v/1E=",
+			"path": "github.com/dgrijalva/jwt-go",
+			"revision": "3af4c746e1c248ee8491a3e0c6f7a9cd831e95f8",
+			"revisionTime": "2018-09-21T17:23:15Z"
+		},
+		{
+			"checksumSHA1": "PPw7uxTwitSQ/0qN7k/sxV80UHI=",
+			"path": "github.com/dgrijalva/jwt-go/request",
+			"revision": "3af4c746e1c248ee8491a3e0c6f7a9cd831e95f8",
+			"revisionTime": "2018-09-21T17:23:15Z"
+		},
+		{
+			"checksumSHA1": "/ibMJtZibmIJwKZDKCOUZWSbf8M=",
+			"path": "github.com/dgrijalva/jwt-go/test",
+			"revision": "3af4c746e1c248ee8491a3e0c6f7a9cd831e95f8",
+			"revisionTime": "2018-09-21T17:23:15Z"
+		},
+		{
+			"checksumSHA1": "4sOg8XYoJJOenUyNZPi0UrMf6TA=",
+			"path": "github.com/gorilla/rpc",
+			"revision": "5b08e7332f981ce85879010363601c2e19696f7f",
+			"revisionTime": "2018-10-24T02:14:49Z"
+		},
+		{
+			"checksumSHA1": "CJVJfdzPFhW6iJfq3j9jEW70UZY=",
+			"path": "github.com/gorilla/rpc/json",
+			"revision": "5b08e7332f981ce85879010363601c2e19696f7f",
+			"revisionTime": "2018-10-24T02:14:49Z"
+		},
+		{
+			"checksumSHA1": "3tofDNz/6d5kOpuBPWItIqsCr3w=",
+			"path": "github.com/gorilla/rpc/v2",
+			"revision": "bffcfa752ad4e523cc8f720afeb5b985ed41ae16",
+			"revisionTime": "2019-03-25T17:12:44Z"
+		},
+		{
+			"checksumSHA1": "D4F2F2PjfrCCkKT/6pCEQ8iAVVE=",
+			"path": "github.com/gorilla/rpc/v2/json",
+			"revision": "bffcfa752ad4e523cc8f720afeb5b985ed41ae16",
+			"revisionTime": "2019-03-25T17:12:44Z"
+		},
+		{
+			"checksumSHA1": "UueaFLJiroCcJLGWHfZCIJSX3G4=",
+			"path": "github.com/rs/cors",
+			"revision": "76f58f330d76a55c5badc74f6212e8a15e742c77",
+			"revisionTime": "2019-01-16T17:59:10Z"
+		}
+	],
+	"rootPath": "github.com/vavas/GO-Szondi"
+}
