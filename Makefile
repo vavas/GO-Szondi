@@ -1,5 +1,5 @@
 # Makefile variables
-PROJECT_NAME=go-szondi
+PROJECT_NAME=szondi-aggregator
 
 DOCKERFILE_URL="https://gist.githubusercontent.com/vavas/b7b6099d8696e61b848d8a2866104c2b/raw/31bb7cb8544827f458ab931864a21e68ab9614a5/dokerfile"
 

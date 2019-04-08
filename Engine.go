@@ -1,21 +1,21 @@
 package main
 
 import (
-
+	"github.com/vavas/Szondi-Aggregator/types"
 	"net/http"
-	"github.com/vavas/GO-Szondi/types"
-	"log"
 )
 
 // EngineService service to manage basic user information for global filter
 type EngineService int
 
-// Get basic engine information
-func (t *EngineService) Get(r *http.Request, args *types.Args, reply *types.BasicInfo) error {
+// Calculate calculate interpretation based on vectors
+func (t *EngineService) Calculate(r *http.Request, args *types.Vectors, reply *types.Interpretation) error {
 
-	log.Println(args)
-	result := 1
-	reply.ID = result
+	result := new(types.Interpretation)
+	result.ID = 1
+	result.Text = "text"
+
+	*reply = *result
 
 	return nil
 }

@@ -3,7 +3,7 @@ networks:
   microservices:
     external: true
 services:
-  go-szondi:
+  szondi-aggregator:
     networks:
     - microservices
     expose:
@@ -11,4 +11,4 @@ services:
     ports:
     - 5777:80
     environment:
-      ENGINE_RPC_DSN: msgo-gf-engine:8080
+      ENGINE_RPC_DSN: szondi-engine:8080

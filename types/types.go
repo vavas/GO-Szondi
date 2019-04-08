@@ -1,9 +1,15 @@
 package types
 
-type BasicInfo struct {
-	ID	int
+type Interpretation struct {
+	ID		int 	`id`
+	Text 	string	`text`
 }
 
-type Args struct {
-	ID	string `json:"id"`
+type Vectors struct {
+	S	S `json:"S"`
+}
+
+type S struct {
+	h string `h`
+	s string `s`
 }
